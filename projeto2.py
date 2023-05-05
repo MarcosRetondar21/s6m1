@@ -119,7 +119,7 @@ def menu_do_interior():
     
     
 def mensagem():
-    print (nome,'\nAgradecemos o seu contato.\nAnotamos todas as suas preferências e entraremos em contato em breve.\n')
+    print (nome,'Parabéns, ficou excelente essa configuração\nAgradecemos o seu contato.\nAnotamos todas as suas preferências e entraremos em contato em breve.\n')
     print('Digite a opção desejada: ')
 
 
