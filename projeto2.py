@@ -4,6 +4,7 @@ email= input('\nDigite seu e-mail: ')
 tel= input('\nDigite seu telefone: ')
 def menu():
     while True:
+        print ('\n Este é nosso menu principal')
         print ('\n1- Carros')
         print ('2- Mecânica')
         print ('3- Atendimento')
@@ -23,7 +24,8 @@ def menu_de_carros():
     print ('\n1- Porche 911')
     print ('2- Panamera')
     print ('3- Macan')
-    print ('4- 718\n')
+    print ('4- 718')
+    print ('5- Retorna\n')
     escolhe_carro= input('Digite um número para o opção do carro que deseja: ')
     
     if escolhe_carro == '1':
@@ -47,7 +49,7 @@ def opcionais_do_carro():  # Início da parte estética co carro
     
 
 def menu_de_cores():
-    print('\nAgora vamos escolher a cor externa de seu carro')
+    print('\nAgora vamos escolher a cor externa de seu carro.')
     
     print ('\n1- Vermelho')
     print ('2- Azul')
@@ -128,16 +130,16 @@ def mecanica():
     print ('2-Freio e suspensão')
     print ('3-troca de óleo')
     print ('4- retorna')
-    print ('5-sair')
+    
 
-    opcao3= input(' digite um número para o opção que desejar')
+    opcao3= input(' digite um número para o opção que desejar: ')
 
     if opcao3 == '1':
         menumotor()
     elif opcao3 == '2':
         freio_suspensao()
     elif opcao3 == '3':
-        print ('opção C')
+        troca_de_oleo()
     elif opcao3 == '4':
         menu()
     else:
@@ -146,63 +148,63 @@ def mecanica():
 # Início da parte de motor
 
 def menumotor():
-    print('mensagem inicial para o cliente')
-    print ('1-embreagem')
+
+    print ('\n1-embreagem')
     print ('2-câmbio')
     print ('3-cabeçote')
-    print ('4-sair')
+    print ('4- retorna')
     
     opcao= input('digite um número para o opção que desejar: ')
 
 
     if opcao == '1':
-        print('Certo, já temos seus dados. Vamos entrar em contato')
+        print('\nCerto, já temos seus dados. Vamos entrar em contato')
     elif opcao == '2':
-        print('Certo, já temos seus dados. Vamos entrar em contato')
+        print('\nCerto, já temos seus dados. Vamos entrar em contato')
     elif opcao == '3':
-        print('Certo, já temos seus dados. Vamos entrar em contato')
+        print('\nCerto, já temos seus dados. Vamos entrar em contato')
     else:
         return
 
 # freio e suspensão
 
 def freio_suspensao():
-    print('mensagem inicial para o cliente')
-    print ('1- Pastilhas de Freio')
-    print ('2- óleo da suspensão')
+    
+    print ('\n1- Pastilhas de Freio')
+    print ('2- óleo de freio')
     print ('3- Discos')
-    print ('4-sair')
+    print ('4- retorna')
     
     opcao= input('digite um número para o opção que desejar: ')
 
 
     if opcao == '1':
-        print('Certo, já temos seus dados. Vamos entrar em contato')
+        print('\nCerto, já temos seus dados. Vamos entrar em contato')
     elif opcao == '2':
-        print('Certo, já temos seus dados. Vamos entrar em contato')
+        print('\nCerto, já temos seus dados. Vamos entrar em contato')
     elif opcao == '3':
-        print('Certo, já temos seus dados. Vamos entrar em contato')
+        print('\nCerto, já temos seus dados. Vamos entrar em contato')
     else:
         return
     
     # Troca de óleo
 
 def troca_de_oleo():
-    print('mensagem inicial para o cliente')
-    print ('1- Óleo de motor')
+    
+    print ('\n1- Óleo de motor')
     print ('2- Óleo de câmbio')
     print ('3- Óleo de freio')
-    print ('4-sair')
+    print ('4- Retorna')
     
     opcao= input('digite um número para o opção que desejar: ')
 
 
     if opcao == '1':
-        print('Certo, já temos seus dados. Vamos entrar em contato')
+        print('\nCerto, já temos seus dados. Vamos entrar em contato')
     elif opcao == '2':
-        print('Certo, já temos seus dados. Vamos entrar em contato')
+        print('\nCerto, já temos seus dados. Vamos entrar em contato')
     elif opcao == '3':
-        print('Certo, já temos seus dados. Vamos entrar em contato')
+        print('\nCerto, já temos seus dados. Vamos entrar em contato')
     else:
         return
 
@@ -216,16 +218,16 @@ def atendimento():
     print ('2-Peças')
     print ('3-ShowRoom')
     print ('4- retorna')
-    print ('5-sair')
+    
 
-    opcao4= input(' digite um número para o opção que desejar')
+    opcao4= input(' digite um número para o opção que desejar: ')
 
     if opcao4 == '1':
-        print ('Alguma coisa sobre Recepção')
+        print ('\nPara falar direto com um atendente ligue: 7777-777')
     elif opcao4 == '2':
-        print('Alguma coisa sobre Peças')
+        print('\nPara falar com o setor de peças ligue: 8888-888')
     elif opcao4 == '3':
-        print ('Alguma coisa sobre showRoom')
+        print ('\nPara nosso showRoom acesse o site www. porchevamoai.com')
     elif opcao4 == '4':
         menu()
     else:
